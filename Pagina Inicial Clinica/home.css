@@ -1,0 +1,197 @@
+body { 
+    background-color: #3B6978;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+}
+.barradenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83a9ac;
+    padding: 10px;
+}
+.banner{
+    width:100%; 
+    height:100%; 
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
+}
+.barradenav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
+}
+.nav2{
+    margin-right: 150px;
+}
+.logo-button {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-button img {
+    width: 400px;
+    height: auto;
+}
+.linha {
+    border: none;
+    border-top: 8px solid #203f51;
+    margin: 0;
+    padding: 0;
+}
+.assistente {
+    text-align: center;
+    position:fixed;
+    align-items: center;
+    width: 250px; 
+    height: 40px;
+    right: 10px; 
+    bottom: -10px; 
+    background-color: #ECE6E1; 
+    padding: 10px; 
+    border-radius: 20px; 
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
+}
+.secao-botoes {
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    filter: drop-shadow(4px 3px 1px rgba(0,0,0,0.3));    
+}
+.botao1 {
+    text-decoration: none;
+    background-color: #83a9ac;
+    color: white;
+    border: none;
+    padding: 43px 30px;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.botao2 {
+    text-decoration: none;
+    background-color: #5F979B;
+    color: white;
+    border: none;
+    padding: 30px 30px;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+}
+.botao3 {
+    text-decoration: none;
+    background-color: #83a9ac;
+    color: white;
+    border: none;
+    padding: 30px 30px;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+}
+.botao4 {
+    text-decoration: none;
+    background-color: #5F979B;
+    color: white;
+    border: none;
+    padding: 43px 35px;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+}
+.botao5 {
+    text-decoration: none;
+    background-color: #83a9ac;
+    color: white;
+    border: none;
+    padding: 43px 30px;
+    font-family: Garamond, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section.noticias {
+    padding: 40px 220px;
+}
+.noticias .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#nota_1{
+    width: auto;
+    height: 290px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    float: left;
+}
+#nota_2{
+    width: auto;
+    height: 290px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    float: left;
+}
+#nota_3{
+    width: auto;
+    height: 290px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    float: left;
+}
+.notas h2{
+    width: 250px;
+    height: 380px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.notas p{
+    text-align: justify;
+    width: 250px;
+    height: 500px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #666;
+}
