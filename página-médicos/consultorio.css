@@ -59,25 +59,33 @@ nav{
     height: 50px;
     border-radius: 100%;
     box-shadow: 20%;
-    margin: 94% 10%;
-    
+    margin-top: -7%;
 }
-#barra ul {
+#barra ul{
+    padding-top: 15%;
     margin-left: -5px;
     list-style-type: none;
+    padding-bottom: 30%;
 }
 #barra ul > a > li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:18px;
     color:#204051;
     text-align: justify;
-    padding: 7px;
 }
 #barra a {
     text-decoration: none;
-    padding: 28px;
-    margin: -20px;
+    padding: 22px;
     display: flex;
+}
+#option ul{
+    list-style-type: none;
+    margin: -20px;
+    margin-top: 43%;
+    display: flex;
+}
+#option ul > a{
+    padding-right: 48%;
 }
 main{
     width: 82%;
