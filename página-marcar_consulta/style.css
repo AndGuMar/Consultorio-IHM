@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #E7DFD5;
+} 
+
+header {
+    background-color:#204051;
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+
+header ul{
+list-style-type: none;
+display: table;
+}
+
+header ul li{
+    display: table-cell;
+}
+
+h1{
+position: fixed;
+top: 10px;
+left: 290px;
+font-family: Train One Regular;
+    font-size: 27px;
+    color:#ffffff;
+}
+
+img {
+    width: 90px;
+    position: relative;
+    top: -15px;
+    margin: 0%;
+    left: 210px;
+    
+}
+
+header> img#perfilheader{
+    border-radius: 50%;
+    width:45px;
+    position: fixed;
+    top: 1.5%;
+    left: 95%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#menulateral{
+    background-color: #84A9AC;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+}
+
+#menulateral ul{
+    padding-top: 55px;
+    margin-left: -5px;
+    list-style-type: none;
+    padding-bottom: 30%;
+}
+#menulateral ul > a > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:17px;
+    color:#204051;
+    text-align: justify;
+    padding-left: 5px;
+    padding-top: 7px;
+    
+}
+#menulateral a {
+    text-decoration: none;
+    padding: 25px;
+    display: flex;
+}
+#option ul{
+    list-style-type: none;
+    display: table;
+    position: fixed;
+    top: 65%;
+    left: 8%;
+    
+}
+#option ul > a > li{
+    display: table-cell;
+}
+
+#option img{
+    border-radius: 50%;
+    width:45px;
+    position: fixed;
+    top: 89%;
+    left: 2%;
+
+}
+
+.search-container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
