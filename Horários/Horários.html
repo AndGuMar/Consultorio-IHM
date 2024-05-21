@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Fernando Diniz</title>
+</head>
+
+<body>
+    <header>
+        <div class="ret"></div>
+        <div class="logo"><img style="width: 55px;" src="/home/thierre999/Documentos/Horários/logotipo.png" alt=""></div>
+        <div class="nome"> <h2>CLÍNICA FERNANDO DINIZ +</h2></div>
+        <div class="agende">AGENDE SUA<br>CONSULTA</div>
+    </header>
+    <nav>
+    <div class="navb2">
+       <button class="navb"><div class="icones" id="iconecor"><img id="icone" style="width: 25px;" src="/home/thierre999/Documentos/Horários/agenda.png"></div><h4>AGENDA</h4></button>
+       <button class="navb"><div class="icones" id="iconecor"><img id="icone" style="width: 25px;" src="/home/thierre999/Documentos/Horários/consultas.png"></div><h4>MINHAS<br>CONSULTAS</h4></button>
+       <button class="navb"><div class="icones" id="iconecor"><img id="icone" style="width: 25px;" src="/home/thierre999/Documentos/Horários/medicos.png"></div><h4>MÉDICOS</h4></button>
+       <button class="navb"><div class="icones" id="iconecor"><img id="icone" style="width: 25px;" src="/home/thierre999/Documentos/Horários/plano.png"></div><h4>MEU PLANO</h4></button>
+       <button class="navb"><div class="icones" id="iconecor"><img id="icone" style="width: 25px;" src="/home/thierre999/Documentos/Horários/suporte.png"></div><h4>SUPORTE</h4></button>
+    </div>
+       <div class="perfil"><img style="width: 55px;" src="/home/thierre999/Documentos/Horários/perfil.png"></div>
+    </nav>
+    <section>
+
+        <div class="barra"><input id="barra_pesq" type="text"> 
+            <button class="filtrob">FILTROS <div class="tri"></button>
+        </div>
+
+        <h1 class="titulo">22 DE MARÇO - HORARIOS <div class="tri2"></div></h1> 
+        <h5 class="dr">DR. JOSÉ CARLOS SANTOS - PSIQUIATRA</h5>
+
+        <div class="bloco">
+        <div class="horas">
+             
+                <div class="botoes">
+                    <div>
+                        <button class="hora2"> 8:00</button>
+                    </div>
+                    <div>
+                        <button class="hora" data-info="15:00 PM">15:00</button>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div>
+                        <button class="hora" data-info="9:00 AM"> 9:00</button>
+                    </div>
+                    <div>
+                        <button class="hora" data-info="16:00 PM">16:00</button>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div>
+                        <button class="hora" data-info="10:00 AM">10:00</button>
+                    </div>
+                    <div>
+                        <button class="hora2">17:00</button>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div>
+                        <button class="hora" data-info="11:00 AM">11:00</button>
+                    </div>
+                    <div>
+                        <button class="hora" data-info="18:00 PM">18:00</button>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div>
+                        <button class="hora" data-info="13:00 PM">13:00</button>
+                    </div>
+                    <div>
+                        <button class="hora" data-info="19:00 PM">19:00</button>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <div>
+                        <button class="hora" data-info="14:00 PM">14:00</button>
+                    </div>
+                    <div>
+                        <button class="hora" data-info="20:00 PM">20:00</button>
+                    </div>
+                </div>
+          
+        </div>
+        </div>
+
+        
+        <div class="agendarDiv">
+
+        <button class="agendarB" id="confirm-button" data-url="Confirmar Dados.html">AGENDAR</button>
+
+        </div>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+          
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
