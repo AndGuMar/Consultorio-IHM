@@ -3,6 +3,7 @@ body{
     width:  98vw;
     height:  100vh;
 }
+
 header{
     background-color:#204051;
     height:14%;
@@ -72,6 +73,8 @@ nav{
     font-size:18px;
     color:#204051;
     text-align: justify;
+    margin-top: 5px;
+    padding-left: 10px;
 }
 #barra a {
     text-decoration: none;
@@ -101,7 +104,7 @@ main{
 }
 .search{
     cursor: pointer;
-    margin-top: 4px;
+    margin: 4px 4px;
 }
 .caixa{
     width: 50%;
@@ -145,31 +148,26 @@ section{
 }
 .crm{
     margin: 20px 0px;
-    color:#204051;
     font-size: 20px;
 }
 .nome{
     margin: -45px 105%;
-    width: 80%;
-    color:#204051;
+    width: max-content;
     font-size: 20px;
 }
 .form{
     margin: 90px 0px;
-    color: #3B6978;
     font-size: 20px;
 }
 .espec{
     margin:-80px 80px;
-    color:#204051;
     font-size: 20px;
-    width:70%;
+    width: max-content;
 }
 .espec1{
     margin: 90px 140px;
-    color:#204051;
     font-size: 18px;
-    width:130%;
+    width: max-content;
 }
 .button{
     border-color: transparent;
@@ -178,9 +176,11 @@ section{
     color: #3B6978;
     font-weight: bold;
     font-size: 18px;
-    margin: 39% 79%;
-    width: 18%;
+    margin-top:32%;
+    margin-left: 79%;
+    width: max-content;
     list-style-type: none;
+    cursor:pointer;
 }
 #infor ul{
     list-style-type: none;
@@ -191,6 +191,33 @@ section{
 }
 #infor ul > li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#204051;
 }
+#ocult ul{
+    list-style-type: none;
+    margin: -15% 0%;
+    display: none;
+}
+#ocult ul> li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.dt{
+    margin-left:-40px;
+}
+.pi{
+    margin-top: -25px;
+    margin-left: 80%;
+    width: max-content;
+}
+.ip{
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.sr{
+    margin-top: -23px;
+    margin-left: 80%;
+    width: max-content;
 
+}
 

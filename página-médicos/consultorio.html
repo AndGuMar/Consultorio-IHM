@@ -9,7 +9,7 @@
     <link rel="icon" href="logo.png" type="image/x-icon">
     <body>
 
-        <nav>
+        <nav class="container">
             <div id="barra">
                 <ul>
                     <a href="#agen">
@@ -49,7 +49,7 @@
                 </ul>
             </div>
         </nav>
-        <header>
+        <header class="container">
             <div id="menu">
                 <ul>
                   <a href="#head">
@@ -64,7 +64,7 @@
             </div>
 
         </header>
-        <main>
+        <main class="container">
             <div class="caixa">
                 <input class="searchbar" type="text" id="barsearch" name="barsearch"/>
                 <svg id="search" class="search" xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
@@ -77,42 +77,54 @@
                     <option value="nda"for="nda">Ortopedia</option>
             </select>
             
-            <section>
+            <section id="section1" >
                 <aside>
                     <img class="profile" src="AnaCarolina.jpg">
                 </aside>
                 <div id="infor">
-                    <ul>
+                    <ul id="lista-section1">
                         <li class="crm">CRM 484526-SP</li>
                         <li class="nome">DRA. ANA CAROLINA LIMA</li>
                         <li class="form">Especialidade/Áreas de atuação:</li>
                         <li class="espec">PEDIATRIA-RQE Nº: 5514</li>
                         <li class="espec1" >Terapia Intensiva Pediátrica-RQE Nº:0567</li>
-                    </ul>
-                    <a  href="MI">
-                        <li class="button">Mais informações</li>
-                    <a>
-                    
+                        <div id="ocult">
+                            <ul id="ocult-section1">
+                                <li class="dt">Data de inscrição: 15/05/2013</li>
+                                <li class="pi">Primeira inscrição na UF: 15/05/2013</li>
+                                <li class="ip">Inscrição: Principal</li>
+                                <li class="sr">Situação: Regular</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <button class="button" id="button-section1">Mais Informações</button>
                 </div>
             </section>
-            <section>
+            
+            <section id="section2" >
                 <aside>
                     <img class="profile" src="Katarina Sanchez.jpg">
                 </aside>
                 <div id="infor">
-                    <ul>
+                    <ul id="lista-section2">
                         <li class="crm">CRM 445682-SP</li>
                         <li class="nome">DRA. KATARINA SANCHEZ</li>
                         <li class="form">Especialidade/Áreas de atuação:</li>
                         <li class="espec">PSIQUIATRIA-RQE nº:8533 </li>
                         <li class="espec1" >Psiquiatria da Infância e da Adolescência-RQE Nº: 4567</li>
+                        <div id="ocult">
+                            <ul id="ocult-section2">
+                                <li class="dt">Data de inscrição: 15/05/2013</li>
+                                <li class="pi">Primeira inscrição na UF: 15/05/2013</li>
+                                <li class="ip">Inscrição: Principal</li>
+                                <li class="sr">Situação: Regular</li>
+                            </ul>
+                        </div>
                     </ul>
-                    <a  href="MI">
-                        <li class="button">Mais informações</li>
-                    <a>
-                    
                 </div>
+                <button class="button" id="button-section2">Mais Informações</button>
             </section>
+
             <!-- botão de libras-->
             <div vw class="enabled">
                 <div vw-access-button class="active"></div>
@@ -124,6 +136,7 @@
               <script>
                 new window.VLibras.Widget('https://vlibras.gov.br/app');
               </script>
+              <script src="consultorio.js" ></script>
         </main>
 
     </body>
