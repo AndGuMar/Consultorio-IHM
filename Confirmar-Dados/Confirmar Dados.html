@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles2.css" media="all">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Fernando Diniz</title>
+</head>
+
+<body>
+    <header>
+        <div class="ret"></div>
+        <div class="logo"><img style="width: 55px;" src="/home/thierre999/Documentos/Confirmar-Dados/logotipo.png" alt=""></div>
+        <div class="nome"> <h2>CLÍNICA FERNANDO DINIZ +</h2></div>
+        <div class="agende">AGENDE SUA<br>CONSULTA</div>
+    </header>
+    <nav>
+      <button class="navb"><div class="icone" id="icone"><img style="width: 25px;" src="/home/thierre999/Documentos/Confirmar-Dados/agenda.png"></div><h4>AGENDA</h4></button>
+      <button class="navb"><div class="icone" id="icone"><img style="width: 25px;" src="/home/thierre999/Documentos/Confirmar-Dados/consultas.png"></div><h4>MINHAS<br>CONSULTAS</h4></button>
+      <button class="navb"><div class="icone" id="icone"><img style="width: 25px;" src="/home/thierre999/Documentos/Confirmar-Dados/medicos.png"></div><h4>MÉDICOS</h4></button>
+      <button class="navb"><div class="icone" id="icone"><img style="width: 25px;" src="/home/thierre999/Documentos/Confirmar-Dados/plano.png"></div><h4>MEU PLANO</h4></button>
+      <button class="navb"><div class="icone" id="icone"><img style="width: 25px;" src="/home/thierre999/Documentos/Confirmar-Dados/suporte.png"></div><h4>SUPORTE</h4></button>
+      <div class="perfil"><img style="width: 55px;" src="/home/thierre999/Documentos/Confirmar-Dados/perfil.png"></div>
+   </nav>
+    <section>
+        <div class="titulo2"><h1>CONFIRME SEUS DADOS</h1></div>
+        <div class="container">
+          <div class="formus">
+          <h3>DADOS DO PACIETE</h3>
+          <form >
+            <input class="dadom" type="text" id="dado" placeholder="Gérman Ezequiel Cano" readonly> 
+            <br>
+            <div class="dados">
+            <input class="dado" type="text" id="dado" placeholder="02/01/1978" readonly>
+            <input class="dado" type="text" id="dado" placeholder="Av. Fluminence, 3" readonly>
+            <input class="dado" type="tel" id="dado" placeholder="(21) 12345-6789" readonly>
+            </div>
+          </form >
+          <h3>CONSULTA</h3>
+          <form>
+          <input class="dadom" type="text" id="dado" placeholder="Dr. José Carlos Santos " readonly>
+          <br>
+          <input class="dadom" type="text" id="dado" placeholder="Psiquiatra" readonly>
+          </form>
+          <form>
+
+          </form >
+          <h3>DATA E HORA</h3>
+          <form>
+            <input class="dadom" type="text" id="dado" placeholder="22 de março de 2024 - sexta-feira" readonly>
+            <br>
+            <input class="dado" type="text" id="info-field" name="info-field" readonly>
+          </form>
+          <div class="blc">
+            <div class="conedi">
+              <button class="edit">editar</button>
+              <button class="conf">confirmar</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+          
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+body {
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #204051;
+    height: 10vh;
+    margin: auto;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.nome {
+    padding-left: 15px;
+    color:#204051;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.agende {
+    padding-left: 600px;
+    padding-top: 5px;
+    color: white;
+    align-items: center;
+}
+
+.ret {
+    height: 10vh;
+    width: 14%;
+    background-color: #84a9ac;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #84a9ac;
+    float: left;
+    width: 14%;
+    height:87vh;
+}
+section {
+    width: 100%;
+    height: 87vh;
+    background-color: #e7dfd5; 
+}
+.navb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    background-color:#84a9ac;
+    color:#204051;
+    border: none;
+    cursor: pointer;
+    padding-left: 33px;
+    letter-spacing: 1px;
+}
+
+.navb.active{
+    background-color:#3b6978;
+    color: white;
+}
+
+h1 {
+    color: #3b6978;
+}
+
+h4 {
+    text-align: justify;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.formus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    margin: 0;
+    border-radius: 10px;
+    height: 500px;
+    width: 900px;
+    background-color: #3b6978;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.dadom {
+    display: flex;
+    text-align: left;
+    height: 4vh;
+    width: 625px;
+    border-radius: 7px;
+    font-size: 18px;
+    color: #3b6978;
+}
+
+.dado {
+    display: flex;
+    text-align: center;
+    height: 4vh;
+    width: auto;
+    border-radius: 7px;
+    font-size: 15px;
+    color: #3b6978;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 74%;
+}
+
+h3 {
+    padding-left: 50px;
+    letter-spacing: 1px;
+    color:#e7dfd5;
+}
+
+#info-field, #dado {
+    background-color: #ABAAAA;
+    border: none;
+}
+
+#dado::placeholder {
+    color: #3b6978;
+}
+
+.blc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+.conedi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 25px;
+    width: 40vh;
+}
+
+.conf {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    width: 18vh;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #204051;
+    color: #e7dfd5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6vh;
+    width: 18vh;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #204051;
+    color: #e7dfd5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.perfil {
+    display: flex;
+    padding-top: 40vh;
+    padding-right: 15vh;
+}
