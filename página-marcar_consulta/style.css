@@ -232,8 +232,8 @@ left: 10px;
 
 #calendar {
     width: 100%;
-    border-collapse: separate; /* Altera para 'separate' */
-    border-spacing: 3px; /* Adiciona espaçamento entre as células */
+    border-collapse: separate; 
+    border-spacing: 3px;
 }
 
 #month-select {
@@ -265,7 +265,7 @@ left: 10px;
     font-size: 10px;
     font-weight: bold;
     position: relative;
-    border: 1px solid #ddd; /* Adiciona borda às células */
+    border: 1px solid #ddd; 
     border-radius:8%;
 }
 

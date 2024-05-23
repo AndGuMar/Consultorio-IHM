@@ -1,16 +1,4 @@
-const items = [
-    { name: 'Consulta de rotina', category: 'routine' },
-    { name: 'Exame de sangue', category: 'blood' },
-    { name: 'Consulta com especialista', category: 'specialist' },
-    { name: 'Vacinação', category: 'vaccination' },
-    { name: 'Check-up anual', category: 'checkup' },
-    { name: 'Exame de imagem', category: 'imaging' },
-    { name: 'Consulta odontológica', category: 'dental' },
-    { name: 'Consulta oftalmológica', category: 'ophthalmology' },
-    { name: 'Consulta dermatológica', category: 'dermatology' },
-    { name: 'Exame de urina', category: 'urine' }
-];
-
+/* barra de pesquisa */
 function search() {
     const input = document.getElementById('searchInput').value.toLowerCase();
     const resultsDiv = document.getElementById('results');
@@ -41,6 +29,9 @@ function search() {
         resultsDiv.textContent = 'Por favor, digite algo para pesquisar.';
     }
 }
+
+// filtros
+
 function toggleFilters() {
     const filters = document.getElementById('filters');
     const arrow = document.getElementById('arrow');
@@ -64,6 +55,8 @@ function toggleFilters() {
         arrow.textContent = '▼';
     }
 }
+
+// calendário
 
 document.addEventListener('DOMContentLoaded', function() {
     const calendar = document.getElementById('calendar');
