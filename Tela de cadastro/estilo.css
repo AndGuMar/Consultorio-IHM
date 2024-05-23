@@ -1,0 +1,162 @@
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+  
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+header{
+    background: #204051;
+    width: 100%;
+    height: 60px;
+    padding: 0%;
+    position: fixed;
+}
+
+
+ul li{ 
+    list-style-type: none;
+    display: table-cell;
+}
+ul li h1{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 5px;
+    left: 100px;
+    font-family: train one regular;
+}
+ul li img{
+    position: fixed;
+    top: 5px;
+}
+
+#logo {
+    border-radius: 200px;
+    width: 50px;
+}
+
+
+#ftperfil{
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 90px;
+    border-radius: 80px;
+    position: absolute;
+
+}
+
+#tipo{
+    position: absolute;
+    justify-content: center;
+    margin-top: 160px;
+    display: none;
+}
+
+
+label {
+    display: block;
+    width: 20px;
+    height: 25px;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+    font-weight: 700;
+    top: 30%;
+    left: 16%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+label::after {
+    content: "+";
+    font-size: 25px; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo h3{
+    color: #3b6978;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    right: 520px;
+}
+
+#central{
+    background: #3b6978;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    width: 80%;
+    position: absolute;
+    top: 17vh;
+    height: 80%;
+    border-radius: 20px;
+}
+
+
+.maiores{
+    background-color: #D9D9D9;
+    width: 640px;
+    position: relative;
+    text-align: left;
+    border-radius: 9px;
+    box-shadow: inset 2px 2px 2px gray;
+    border: none;
+
+    padding: 10px /*top */ 8px /*right */ 10px /*botton */ 5px/*left */; /*abreviar codigo */
+    margin: 5px 10px 15px 0px; /*abreviar codigo */
+    
+}
+
+.atributos > input {
+    background-color: #D9D9D9;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+
+    border-radius: 9px;
+    box-shadow: inset 2px 2px 2px gray;
+    border: none;
+}
+
+.atributos > h1 {
+    color:white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formulario{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+button{
+    background: #204051;
+    color: #E7DFD5;
+    bottom: 60px;
+    right: 314px;
+    height: 40px;
+    font-size: 17px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border: none;
+    position: relative;
+}
