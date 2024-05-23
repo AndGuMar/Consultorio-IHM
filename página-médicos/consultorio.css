@@ -44,6 +44,10 @@ header{
 #menu ul > a{
     text-decoration: none;
 }
+#menu ul a:hover{
+
+}
+
 nav{
     background-color: #84A9AC;
     float:left;
