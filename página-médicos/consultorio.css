@@ -63,28 +63,25 @@ nav{
     margin-top: -7%;
 }
 #barra ul{
-    padding-top: 15%;
-    margin-left: -5px;
+    padding: 15%;
     list-style-type: none;
-    padding-bottom: 30%;
 }
 #barra ul > a > li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:18px;
     color:#204051;
     text-align: justify;
-    margin-top: 5px;
-    padding-left: 10px;
+    margin: 5px;
+    position: relative;
 }
 #barra a {
     text-decoration: none;
-    padding: 22px;
+    padding-bottom: 44px;
     display: flex;
 }
 #option ul{
+    margin-top: 55%;
     list-style-type: none;
-    margin: -20px;
-    margin-top: 43%;
     display: flex;
 }
 #option ul > a{

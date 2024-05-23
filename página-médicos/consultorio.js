@@ -14,7 +14,7 @@ buttons.forEach(button => {
       block.style.backgroundColor = isExpanded ? "#ffffff" : "#3B6978";
       button.textContent = isExpanded ? "Mais Informações" : "Menos Informações";
       button.style.color = isExpanded ? "#3b6978" : "#ffffff";
-      button.style.marginTop = isExpanded ? "31%" : " 35%"
+      button.style.marginTop = isExpanded ? "31%" : " 37%"
 
       lista.forEach(lista => {
         lista.style.color = isExpanded ? "#204051" : "#ffffff";
