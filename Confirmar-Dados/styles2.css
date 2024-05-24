@@ -21,9 +21,14 @@ header {
 }
 
 .agende {
-    padding-left: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-self: center;
+    text-align: center;
+    padding-left: 620px;
     padding-top: 5px;
-    color: white;
+    color: #84A9AC;
     align-items: center;
 }
 
